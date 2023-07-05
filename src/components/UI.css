@@ -1,0 +1,714 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+
+* {
+    margin: 0;
+    background-color: black;
+}
+
+*::selection{
+    color: gray;
+}
+
+#UI {
+    background-color: black;
+    min-width: 100%;
+    min-height: 100vh;
+    color: aliceblue;
+    overflow: hidden;
+}
+
+.nav a {
+    font-family: 'Josefin Sans', sans-serif;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: large;
+    padding: 20px;
+    float: right;
+}
+
+.click:hover {
+    color: greenyellow;
+    transition: color 150ms 150ms linear;
+}
+
+.nav h1 {
+    font-family: 'Ms Madi', cursive;
+    color: orange;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.home {
+    margin: 50px;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.home h4 {
+    color: orange;
+    font-family: 'Crimson Text', serif;
+    margin: 10px;
+}
+
+.home h1 {
+    font-family: 'Cinzel', serif;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.home h3 {
+    margin: 10px;
+    font-family: 'Amiri', serif;
+}
+
+.home-icon {
+    font-size: x-large;
+}
+
+.about {
+    display: flex;
+}
+
+.home img {
+    width: 550px;
+    height: 550px;
+    position: relative;
+    left: 700px;
+    bottom: 330px;
+}
+
+.about-me {
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: xx-large;
+    font-weight: bold;
+    position: relative;
+    bottom: 200px;
+}
+
+.about h3 {
+    font-family: 'Amita', cursive;
+    position: relative;
+    bottom: 100px;
+    padding-left: 100px;
+}
+
+.about img {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 500px;
+    bottom: 200px;
+}
+
+.skill {
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.skills {
+    font-size: xx-large;
+}
+
+.html {
+    width: 2.5%;
+    position: relative;
+    left: 50%;
+    top: 30px;
+}
+
+.html:hover {
+    color: blue;
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: transform 150ms 150ms linear;
+}
+
+.html:hover p {
+    color: aliceblue;
+}
+
+.html p {
+    font-size: medium;
+    color: transparent;
+}
+
+.css {
+    width: 2.5%;
+    position: relative;
+    left: 30%;
+    top: 70px;
+}
+
+.css:hover  {
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: transform 150ms 150ms linear;
+    color: blue;
+}
+
+.css:hover p {
+    color: aliceblue;
+}
+
+.css p {
+    font-size: medium;
+    color: transparent;
+}
+
+.sass {
+    width: 2.5%;
+    position: relative;
+    left: 70%;
+}
+
+.sass:hover {
+    color:#bf4080;
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: transform 150ms 150ms linear;
+}
+
+.sass:hover p {
+    color: aliceblue;
+}
+
+.sass p {
+    font-size: medium;
+    color: transparent;
+}
+
+.bootstrap {
+    width: 2.5%;
+    position: relative;
+    left: 30%;
+    top: 50px;
+}
+
+.bootstrap:hover {
+    color: #712cf9;
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: transform 150ms 150ms linear;
+}
+
+.bootstrap:hover p {
+    color: aliceblue;
+}
+
+.bootstrap p {
+    font-size: medium;
+    color: transparent;
+}
+
+.javascript {
+    width: 2.5%;
+    position: relative;
+    left: 50%;
+    top: 70px;
+}
+
+.javascript:hover {
+    color: yellow;
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: transform 150ms 150ms linear;
+}
+
+.javascript:hover p {
+    color: aliceblue;
+}
+
+.javascript p {
+    font-size: medium;
+    color: transparent;
+}
+
+.react {
+    width: 2.5%;
+    position: relative;
+    left: 70%;
+    bottom: 80px;
+}
+
+.react:hover {
+    color: #61dafb;
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: transform 150ms 150ms linear;
+}
+
+.react:hover p {
+    color: aliceblue;
+}
+
+.react p {
+    font-size: medium;
+    color: transparent;
+}
+
+.project {
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.projects h1 {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-family: 'Amita', cursive;
+}
+
+.memorygame {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.memorygame h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    margin-bottom: 70px;
+}
+
+.memorygame img {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.teck {
+    margin-top: 10px;
+}
+
+.html1 {
+    font-size: xx-large;
+    color: blue;
+}
+
+.css1 {
+    font-size: xx-large;
+    margin-left: 10px;
+    color: blue;
+}
+
+.javascript1 {
+    font-size: xx-large;
+    margin-left: 10px;
+    color: yellow;
+}
+
+.memorygame-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.livesite {
+    margin-right: 10px;
+    font-family: 'Amita', cursive;
+}
+
+.livesite a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.livesite:hover {
+    transform: translateY(-10px);
+    transition: all 200ms 200ms ease-in;
+    cursor: pointer;
+}
+
+.livesite a:hover {
+    color: powderblue;
+    transition: color 150ms 150ms linear;
+}
+
+.livesite a:active {
+    color: powderblue;
+    transition: color 150ms 150ms linear;
+}
+
+.livesite:active {
+    transform: translateY(-10px);
+    transition: all 200ms 200ms ease-in;
+}
+
+.projectsgithup {
+    margin-left: 10px;
+    font-family: 'Amita', cursive;
+}
+
+.projectsgithup a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.projectsgithup:hover {
+    color: powderblue;
+    transform: translateY(-10px);
+    transition: all 200ms 200ms ease-in;
+    cursor: pointer;
+}
+
+.projectsgithup a:hover {
+    color: powderblue;
+    transition: color 150ms 150ms linear;
+}
+
+.projectsgithup a:active {
+    color: powderblue;
+    transition: color 150ms 150ms linear;
+}
+
+.projectsgithup:hover {
+    transform: translateY(-10px);
+    transition: all 200ms 200ms ease-in;
+}
+
+.r-p-s {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.r-p-s h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    margin-bottom: 70px;
+}
+
+.r-p-s img {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.teck2 {
+    margin-top: 10px;
+}
+
+.html2 {
+    font-size: xx-large;
+    color: blue;
+}
+
+.css2 {
+    font-size: xx-large;
+    margin-left: 10px;
+    color: blue;
+}
+
+.javascript2 {
+    font-size: xx-large;
+    margin-left: 10px;
+    color: yellow;
+}
+
+.r-p-s-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.contact {
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 10px;
+}
+
+.input {
+    border: 1px solid black;
+    border-bottom: 1px solid gray;
+    margin: 5px;
+    font-size: x-large;
+    color: aliceblue;
+}
+
+.submit {
+    margin-top: 10px;
+    width: 20%;
+    background-color: orange;
+    border: 2px solid aliceblue;
+    font-size: large;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+}
+
+.developer {
+    font-family: 'Ms Madi', cursive;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.contacts {
+    display: flex;
+}
+
+.info {
+    position: relative;
+    left: 100px;
+}
+
+.info p {
+    position: relative;
+    top: 50px;
+}
+
+.info div {
+    font-size: xx-large;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+.githupandlinkedin {
+    position: relative;
+    top: 130px;
+    right: 100px;
+    height: 100px;
+}
+
+.linkedin {
+    margin-right: 50px;
+    color: aliceblue;
+    font-size: xx-large;
+    border-radius: 5px;
+}
+
+.linkedin:hover {
+    color: blue;
+    background-color: aliceblue;
+    transform: translateY(-10px);
+    transition: transform 150ms 150ms linear;
+    cursor: pointer;
+}
+
+.linkedin:active {
+    color: blue;
+    background-color: aliceblue;
+    transform: translateY(-10px);
+    transition: transform 150ms 150ms linear;
+    cursor: pointer;
+}
+
+.githup {
+    color: black;
+    font-size: xx-large;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+.githup:hover {
+    transform: translateY(-10px);
+    transition: transform 150ms 150ms linear;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: black;
+}
+
+.githup:active {
+    transform: translateY(-10px);
+    transition: transform 150ms 150ms linear;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: black;
+}
+
+footer a {
+    font-size: x-large;
+}
+
+footer a:active {
+    color: blueviolet;
+}
+
+.sended {
+    width: 300px;
+    height: 300px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+
+@media all and (max-width: 500px) {
+    .nav h1 {
+        padding-left: 0;
+        padding-top: 0;
+        font-size: x-large;
+    }
+    .nav a {
+        padding: 5px;
+        padding-top: 13px;
+        font-size: small;
+    }
+    .linkes {
+        padding-right: 35px;
+    }
+    .home img {
+        display: none;
+    }
+    .ibrahim {
+        position: relative;
+        right: 110px;
+    }
+    .about-me {
+        margin-top: 550px;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about h3 {
+        padding-left: 20px;
+    }
+    .about img {
+        position: relative;
+        left: 50px;
+        bottom: 80px;
+    }
+    .submit {
+        width: 80px;
+    }
+    .developer {
+        font-size: large;
+        margin-top: 150px;
+    }
+    .githupandlinkedin {
+        position: relative;
+        left: 50px;
+        top: 450px;
+        height: 10px;
+        margin-top: 50px;
+    }
+    .form {
+        position: relative;
+        left: 90px;
+        margin-top: 50px;
+    }
+    .info p {
+        display: none;
+    }
+}
+
+@media all and (max-width: 388px) {
+    .form {
+        position: relative;
+        left: 100px;
+        margin-top: 50px;
+    }
+    .githupandlinkedin {
+        position: relative;
+        left: 10px;
+        top: 450px;
+        height: 10px;
+        margin-top: 50px;
+    }
+}
+
+@media all and (max-width: 292px) {
+    .nav h1 {
+        padding-left: 0;
+        padding-top: 0;
+        font-size: x-large;
+    }
+    .nav a {
+        padding: 5px;
+        padding-top: 13px;
+        font-size: small;
+    }
+    .linkes {
+        padding-right: 15px;
+        margin-left: 10px;
+    }
+}
+
+@media all and (max-width: 787px) and (min-width: 501px) {
+    .about-me {
+        margin-top: 550px;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about h3 {
+        padding-left: 20px;
+    }
+    .about img {
+        position: relative;
+        left: 50px;
+        bottom: 80px;
+    }
+    .submit {
+        width: 100px;
+    }
+}
+
+@media all and (max-width: 840px) and (min-width: 787px) {
+    .home-info {
+        position: relative;
+        right: 100px;
+    }
+    .home img {
+        position: relative;
+        left: 150px;
+    }
+    .about h3 {
+        padding-left: 30px;
+    }
+    .about img {
+        position: relative;
+        left: 50px;
+    }
+    .submit {
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 1024px) and (min-width: 840px) {
+    .linkes {
+        margin-right: 30px;
+    }
+    .home-info {
+        position: relative;
+        right: 100px;
+    }
+    .home img {
+        position: relative;
+        left: 270px;
+    }
+    .about img {
+        position: relative;
+        left: 70px;
+    }
+    .submit {
+        width: 50%;
+    }
+}
